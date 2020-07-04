@@ -1,0 +1,60 @@
+/* Todo el sitio:  */
+.tipografia{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header: */
+#fondo-amarillo{
+    background-color: #EAC926;
+}
+
+.encabezado{
+    font-size: 12px;
+}
+
+.iconos-encabezado{
+    color: black
+}
+
+/* Main body: */
+.fondo-gris-claro{
+    background-color: #ebebeb;;
+}
+
+.titulos{
+    font-size: 24px;
+    color:   #666;
+}
+
+p.ofertas{
+    color: #39b54a;
+    font-size: 16px;
+}
+
+.precios{
+    font-size: 18px;
+}
+
+.descripciones{
+    font-size: 16px;
+    color: #666;
+}
+
+.iconos-main{
+    color: #39b54a;
+}
+
+/* Footer:  */
+
+.footer-parrafos-general{
+    font-size: 12px;
+    color:  #666;
+}
+
+.iconos-footer{
+    color: #1259c3;
+}
+
+#copyright{
+    font-size: 12px;
+}
