@@ -1,9 +1,43 @@
 /* Todo el sitio:  */
+*{
+    box-sizing: border-box;
+}
 .tipografia{
     font-family: 'Roboto', sans-serif;
 }
 
+
 /* Header: */
+.logo{
+    width: 50%;
+}
+
+.barra-busqueda{
+    width: 50%;
+}
+
+.boton-de-menu{
+    text-align: center;
+}
+
+.hamburguesa{
+    width: 40px;
+    height: 40px;
+    background-color: #0044AA;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.hamburguesa:hover{
+    background-color:  #0022AA;
+}
+
 #fondo-amarillo{
     background-color: #EAC926;
 }
@@ -16,7 +50,24 @@
     color: black
 }
 
+/* Banner */
+.banner{
+    display: block;
+    width:100%;
+}
+
 /* Main body: */
+
+main{
+width: 90%;
+justify-content: center;
+}
+
+.fondo{
+    width: 100%;
+    background-color: #ebebeb;
+}
+
 .fondo-gris-claro{
     background-color: #ebebeb;;
 }
@@ -24,7 +75,22 @@
 .titulos{
     font-size: 24px;
     color:   #666;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+main article{
+    padding: 15px;
+}
+
+.articulos-ultima-visita{
+    margin-bottom: 20px;
+}
+
+.articulos-ofertas{
+    margin-bottom: 20px;
+}
+
 
 p.ofertas{
     color: #39b54a;
@@ -42,9 +108,58 @@ p.ofertas{
 
 .iconos-main{
     color: #39b54a;
+    border: 1x solid black;
+}
+
+/* Main body login/register: */
+
+main form{
+    background-color:  #ebebeb;
+}
+
+main input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+main button{
+    color: white;
+    background-color:  #0044AA; 
+    width: 100%; 
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0px; 
+    cursor: pointer;  
+}
+
+main button:hover{
+    background-color:  #0022AA
+}
+
+#reset-button{
+    color: white;
+    background-color: #AA0044;
+    cursor: pointer;
+}
+
+#reset-button:hover{
+    background-color: #CC1155;
 }
 
 /* Footer:  */
+
+footer{
+    padding: 20px 5%;
+}
+footer article{
+    margin-bottom: 20px;
+}
 
 .footer-parrafos-general{
     font-size: 12px;
