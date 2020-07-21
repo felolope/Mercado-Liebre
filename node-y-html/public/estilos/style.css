@@ -6,6 +6,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background-color: #ebebeb;
+    margin: 0px;
+}
+
 
 /* Header: */
 .logo{
@@ -59,17 +64,21 @@
 /* Main body: */
 
 main{
-width: 90%;
-justify-content: center;
+    width: 90%;
 }
+
+.articulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    background-color: white;
+}
+
 
 .fondo{
     width: 100%;
     background-color: #ebebeb;
-}
-
-.fondo-gris-claro{
-    background-color: #ebebeb;;
 }
 
 .titulos{
